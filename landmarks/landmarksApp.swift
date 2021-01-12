@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//entry points for the app
 @main
 struct landmarksApp: App {
     var body: some Scene {
