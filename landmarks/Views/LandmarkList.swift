@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct LandmarkList: View {
+    @State private var showFavouritesOnly = false
     var body: some View {
         NavigationView{
         List(landmark){ landmark in
@@ -25,5 +26,6 @@ struct LandmarkList: View {
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         LandmarkList()
+        
     }
 }
